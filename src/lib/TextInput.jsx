@@ -3,7 +3,7 @@ import GeneralInput from '../structure/GeneralInput.jsx'
 
 function TextInput ({ children, ...attr }) {
   return (
-    <GeneralInput type="text" {...attr}>
+    <GeneralInput type="text" name="name" id="name" {...attr}>
       {children}
     </GeneralInput>
   )

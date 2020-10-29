@@ -3,7 +3,7 @@ import GeneralInput from '../structure/GeneralInput.jsx'
 
 function DateInput ({ children, ...attr }) {
   return (
-    <GeneralInput type="date" {...attr}>
+    <GeneralInput type="date" name="date" id="date" {...attr}>
       {children}
     </GeneralInput>
   )

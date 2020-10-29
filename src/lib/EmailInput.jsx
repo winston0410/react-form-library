@@ -3,7 +3,7 @@ import GeneralInput from '../structure/GeneralInput.jsx'
 
 function EmailInput ({ children, ...attr }) {
   return (
-    <GeneralInput type="email" autocomplete="email" {...attr}>
+    <GeneralInput type="email" name="email" id="email" autocomplete="email" {...attr}>
       {children}
     </GeneralInput>
   )
